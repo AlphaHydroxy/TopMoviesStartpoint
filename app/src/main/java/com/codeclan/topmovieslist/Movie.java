@@ -1,7 +1,9 @@
 package com.codeclan.topmovieslist;
 
 
-public class Movie {
+import java.io.Serializable;
+//first step make movie class serializable so that it can be changed to a string
+public class Movie implements Serializable{
 
     private int ranking;
     private String title;
